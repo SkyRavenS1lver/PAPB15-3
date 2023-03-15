@@ -67,5 +67,45 @@
             app:layout_constraintTop_toBottomOf="@id/value_pitch"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/sopt_top"
+        android:layout_margin="@dimen/base_margin"
+        android:layout_width="@dimen/spot_size"
+        android:layout_height="@dimen/spot_size"
+        app:srcCompat="@drawable/spot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <ImageView
+        android:id="@+id/sopt_btm"
+        android:layout_margin="@dimen/base_margin"
+        android:layout_width="@dimen/spot_size"
+        android:layout_height="@dimen/spot_size"
+        app:srcCompat="@drawable/spot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <ImageView
+        android:id="@+id/sopt_left"
+        android:layout_margin="@dimen/base_margin"
+        android:layout_width="@dimen/spot_size"
+        android:layout_height="@dimen/spot_size"
+        app:srcCompat="@drawable/spot"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <ImageView
+        android:id="@+id/sopt_right"
+        android:layout_margin="@dimen/base_margin"
+        android:layout_width="@dimen/spot_size"
+        android:layout_height="@dimen/spot_size"
+        app:srcCompat="@drawable/spot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
