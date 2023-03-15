@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="azimuth">Azimuth: </string>
+    <string name="pitch">Pitch: </string>
+    <string name="roll">Roll: </string>
+    <string name="value_format">%1$.2f</string>
+</resources>
